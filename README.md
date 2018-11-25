@@ -1,2 +1,2 @@
 # Toucans-Team-07
-Add-project-description-here | Voyage-7 | https://chingu.io/
+Clone of TickyBot site. Original at https://tickybott.herokuapp.com/ | Voyage-7 | https://chingu.io/
