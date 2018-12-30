@@ -3,7 +3,7 @@ Clone of TickyBot site. Original at https://tickybott.herokuapp.com/ | Voyage-7 
 
 
 TEAM MEMBERS
-_____________
+=================
 
 Sonia
 
