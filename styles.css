@@ -8,7 +8,7 @@
 /* } */
 
 .menu {
-    position: justify;
+    /* position: justify; */
     left: 0;
     top: 0;
     height: 50px;
@@ -42,46 +42,36 @@
     width: 100%;
     background-color: #58C3E6;
     text-align: center;
-
-    height: 300px;
+    height: 500px;
+    padding: 0em, 0em,
 }
 
 .about {
-    height: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
     /* padding: 10px 0px; */
     /* position: fixed; */
     text-align: center;
-    left: 0;
-    padding: 0px;
-    background: white;
+    padding: 20px;
+    background:white;
     height: 200px;
-    width: 100%;
 }
 .features {
     max-width: 100%;
     background-color: #58C3E6;
     height: auto;
-    padding: -10px 0px;
-    /* position: relative; */
+    position: relative;
     text-align: center;
     padding: 20px;
-    left: 0;
-    /* background: white; */
     height: 200px;
-    width: 100%;
 }
 
 .resources {
-    /* height: auto; */
     position: relative;
-    padding: 0px 50px;
-    /* position: fixed; */
     text-align: center;
     padding: 20px;
-    left: 0;
     background: white;
     height: 200px;
-    width: 100%;
 }
 
 .footer {
@@ -89,22 +79,24 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #fff;
+    height: auto;
+    background-color: #42586D;
     color: grey;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;        
 }
 
-/* html,
+html,
 body {
-    max-width: 100%;
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
-} */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 
 #title {
     height: 400px;
-    width: 1000px;
+    /* width: 1000px; */
     font-size: 48px;
     line-height: 300px;
     text-align: center;
@@ -119,7 +111,7 @@ body {
     margin: 10px;
     position: relative;
     left: 300px;
-    top: 300px;
+    top: 100px;
 }
 
 #secondDesc {
@@ -142,13 +134,14 @@ body {
 /* } */
 
 .box {
-    margin: 50px;
+    /* margin: 500px; */
     width: 453px;
     height: 450px;
+    left: 200;
     background: url("https://res.cloudinary.com/dk4vuo0ku/image/upload/v1542739738/robot-11530975132zujlxc7vrg_tgscu8.png") no-repeat;
-    position: fixed;
-    -webkit-animation: repeatit 2s linear 0s infinite alternate;
-    animation: repeatit 2s linear 0s infinite alternate;
+    position: relative;
+    /* -webkit-animation: repeatit 2s linear 0s infinite alternate; */
+    /* animation: repeatit 2s linear 0s infinite alternate; */
 }
 
 @-webkit-keyframes repeatit {
@@ -171,11 +164,25 @@ body {
     }
 }
 
+form.example input[type=text] {
+    position: absolute;
+    left: 720px;
+    top: 225px;
+    padding: 10px;
+    height: 42px;
+    font-size: 17px;
+    border: 1px solid green;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+}
+
 form.example button {
-    position: fixed;
-    left: 750px;
-    top: 450px;
+    position: absolute;
+    left: 1000px;
+    top: 225px;
     width: 10%;
+    height: 42px;;
     padding: 10px;
     background: #E5C752;
     color: white;
@@ -183,16 +190,4 @@ form.example button {
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
-}
-
-form.example input[type=text] {
-    position: fixed;
-    left: 550px;
-    top: 450px;
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid green;
-    float: left;
-    width: 20%;
-    background: #f1f1f1;
 }
