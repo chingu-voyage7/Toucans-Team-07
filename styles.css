@@ -55,6 +55,7 @@
     padding: 20px;
     background:white;
     height: 200px;
+    font-family: 'Major Mono Display', monospace;
 }
 .features {
     max-width: 100%;
@@ -64,6 +65,8 @@
     text-align: center;
     padding: 20px;
     height: 200px;
+    font-family: 'Indie Flower',cursive;
+    color: #4d0039
 }
 
 .resources {
@@ -72,6 +75,72 @@
     padding: 20px;
     background: white;
     height: 200px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.font1 {
+    max-width: 100%;
+    background-color: #58C3E6;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    font-family: 'Playfair Display SC',
+    serif;
+    color: #4d0039
+}
+
+.font2 {
+    max-width: 100%;
+    background-color: white;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    font-family: 'Lora',
+    serif;
+    color: #4d0039
+}
+
+.font3 {
+    max-width: 100%;
+    background-color: white;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    font-family: 'Merriweather',
+    serif;
+    color: #4d0039
+}
+
+.font4 {
+    max-width: 100%;
+    background-color: #58C3E6;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    font-family: 'Ubuntu',
+        sans-serif;
+    color: #4d0039
+}
+
+.font5 {
+    max-width: 100%;
+    background-color: white;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    font-family: 'Indie Flower',
+        cursive;
+    color: #4d0039
 }
 
 .footer {
@@ -191,3 +260,4 @@ form.example button {
     border-left: none;
     cursor: pointer;
 }
+
